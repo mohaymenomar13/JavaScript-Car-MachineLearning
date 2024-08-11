@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(152, 150, 150);
+    text-align: center;
+    overflow: hidden;
+}
+#myCanvas{
+    background-color: rgb(111, 111, 111);
+}
+#dialog{
+    background-color: rgb(185, 185, 185);
+    width: 100px;
+    height: 150px;
+    top: 40%;
+    left: -40%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.div {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    scale: 1.5;
+}
